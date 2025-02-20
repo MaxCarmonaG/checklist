@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build --dist-dir docs --public-url /checkList/ index.html",
+    "build": "parcel build --dist-dir assets --public-url /checkList/ index.html",
     "dev:build": "parcel build --dist-dir dist --no-content-hash index.html",
     "dev:run": "npm run dev:build && npm run dev:start",
     "dev:start": "parcel serve --dist-dir dist index.html",
