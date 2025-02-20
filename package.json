@@ -5,7 +5,7 @@
   "type": "module",
   "source": "index.html",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel",
     "build": "parcel build --dist-dir assets --public-url /checkList/ index.html",
     "dev:build": "parcel build --dist-dir dist --no-content-hash index.html",
     "dev:run": "npm run dev:build && npm run dev:start",
